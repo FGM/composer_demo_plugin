@@ -1,0 +1,27 @@
+{
+  "authors": [
+    {
+      "email": "fgm@osinet.fr",
+      "name": "Frederic G. MARAND"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fgm\\Composer\\": "src/Composer"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "description": "Composer plugin demo",
+  "extra": {
+    "class": "Fgm\\Composer\\DemoPlugin"
+  },
+  "license": "GPL-3.0+",
+  "minimum-stability": "dev",
+  "name": "fgm/demo_plugin",
+  "require": {
+    "composer-plugin-api": "^1.1"
+  },
+  "type": "composer-plugin"
+}
